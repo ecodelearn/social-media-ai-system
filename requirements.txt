@@ -1,0 +1,64 @@
+# Dependências principais do projeto
+# Sistema de Criação de Conteúdo para Redes Sociais
+
+# CrewAI e dependências principais
+crewai>=0.51.0
+crewai-tools>=0.8.3
+
+# Google Gemini AI
+google-generativeai>=0.8.0
+langchain-google-genai>=1.0.10
+
+# Gerenciamento de ambiente
+python-dotenv>=1.0.0
+
+# Processamento de dados
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Requisições HTTP
+requests>=2.31.0
+httpx>=0.27.0
+
+# Processamento de texto e JSON
+pydantic>=2.0.0
+jsonschema>=4.19.0
+
+# Logging e debugging
+rich>=13.0.0
+loguru>=0.7.0
+
+# Ferramentas de pesquisa (opcionais)
+duckduckgo-search>=4.0.0
+
+# Processamento de conteúdo
+beautifulsoup4>=4.12.0
+markdownify>=0.11.0
+
+# Utilitários
+python-dateutil>=2.8.0
+pytz>=2023.3
+
+# CLI improvements
+click>=8.1.0
+colorama>=0.4.6
+
+# Environment management
+python-decouple>=3.8
+
+# === FASE 2: RAG Visual Dependencies ===
+# PDF processing
+PyMuPDF>=1.23.0
+PyPDF2>=3.0.0
+
+# Embeddings and vector search
+sentence-transformers>=2.2.0
+faiss-cpu>=1.7.4
+
+# Additional ML dependencies
+scikit-learn>=1.3.0
+transformers>=4.35.0
+
+# Text processing for RAG
+nltk>=3.8.0
+spacy>=3.7.0

@@ -1,0 +1,12 @@
+[project]
+name = "social-media-ai-system"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "faiss-cpu>=1.11.0",
+    "numpy>=2.2.6",
+    "pymupdf>=1.26.0",
+    "sentence-transformers>=4.1.0",
+]

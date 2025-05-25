@@ -1,0 +1,248 @@
+# 🔐 Arquivos Sensíveis - NUNCA COMMITAR
+.env
+*.key
+*.pem
+secrets/
+config/local_*
+
+# 🐍 Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# 🌍 Ambientes Virtuais
+.env
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.Python
+
+# 🔧 UV Específico
+.uv/
+uv.lock
+
+# 📊 Jupyter Notebook
+.ipynb_checkpoints
+
+# 🧪 Testes
+.coverage
+.pytest_cache/
+.tox/
+.nox/
+htmlcov/
+.coverage.*
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# 📝 Documentação
+docs/_build/
+.readthedocs.yml
+
+# 🎯 IDEs e Editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.spyderproject
+.spyproject
+.ropeproject
+
+# 🖥️ Sistema Operacional
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# 📱 Mobile
+*.mobileprovision
+*.p12
+
+# 🗄️ Bancos de Dados
+*.db
+*.sqlite
+*.sqlite3
+db.sqlite3
+database.db
+
+# 📋 Logs e Debugging
+*.log
+logs/
+debug.log
+error.log
+access.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 🚀 Deploy e Build
+.serverless/
+.terraform/
+terraform.tfstate*
+.pulumi/
+
+# 📦 Node.js (se houver frontend)
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# 🔄 Cache e Temporários
+.cache/
+*.tmp
+*.temp
+.temp/
+.tmp/
+*.bak
+*.backup
+.backup/
+
+# 📊 Dados e Resultados
+data/
+output/
+results/
+exports/
+*.csv
+*.xlsx
+*.json.bak
+media/
+uploads/
+
+# 🤖 IA e ML Específico
+models/
+checkpoints/
+*.pkl
+*.pickle
+*.h5
+*.pb
+*.onnx
+wandb/
+mlruns/
+
+# 🔧 Configurações Locais do Projeto
+local_config.py
+local_settings.py
+development.py
+staging.py
+
+# 📱 Social Media Bot Específico
+social_media_cache/
+generated_content/
+sent_messages.log
+analytics_data/
+user_sessions/
+
+# 🎨 Assets Temporários
+temp_images/
+generated_images/
+thumbnails/
+.thumbnails/
+
+# 🔍 Search Index
+.whoosh_index/
+
+# 📈 Analytics e Métricas
+analytics/
+metrics/
+reports/
+*.analytics
+
+# 🔐 Certificados e Chaves
+*.crt
+*.key
+*.p12
+*.keystore
+certificates/
+
+# 🌐 Web Assets (se houver)
+static/collected/
+staticfiles/
+media_root/
+
+# 📧 Email Templates Compilados
+*.mjml.html
+
+# 🎯 Específico CrewAI
+crew_outputs/
+agent_logs/
+task_results/
+
+# 🔄 Backup Automático
+*_backup_*
+*.orig
+*.rej
+
+# 📦 Distribution
+*.tar.gz
+*.zip
+*.rar
+*.7z
+
+# 🧹 OS Generated
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# 🎮 Gaming (Easter Egg)
+save_games/
+*.save
+
+# 🎨 Design Files
+*.psd
+*.ai
+*.sketch
+*.figma
+
+# 📱 Mobile Development
+*.apk
+*.ipa
+*.aab
+
+# 🔧 Development Tools
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+
+# 🌟 Custom Project Files
+# Adicione arquivos específicos do seu projeto aqui
+custom_templates/
+user_data/
+batch_outputs/
+social_media_batch_*.json
+
+# 🎯 Fim do .gitignore
+# Lembre-se: Sempre revisar antes de commitar!
